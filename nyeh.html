@@ -1,0 +1,434 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+            <link href="blog.css" rel="stylesheet">
+            <link href="babang.css" rel="stylesheet">
+            <header class="blog-header-logo py-3">
+                    <div class="row flex-nowrap justify-content-between align-items-center">
+                      <div class="col-4 pt-1">
+                        &emsp; <img src="kct.png" width="10%">
+                      </div>
+                      <div class="col-4 d-flex justify-content-end align-items-center">
+                        <a data-scroll class="btn btn-sm btn-outline-secondary" href="#intro">HOME PAGE</a>
+                        &emsp;
+                        <a class="btn btn-sm btn-outline-secondary" href="#games">GAMES</a>
+                        &emsp;
+                        <a data-scroll class="btn btn-sm btn-outline-secondary" href="#others">OTHERS</a>
+                        &emsp;
+                        <a class="btn btn-sm btn-outline-secondary" href="#team">TEAM</a>
+                        &emsp;
+                        <a class="btn btn-sm btn-outline-secondary" href="#contact">CONTACT</a>
+                        &emsp;
+                       
+                      </div>
+                    </div>
+                  </header>
+        
+    </head>
+    <body>
+<!--/* Intro  */-->
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+              <h1 class="display-4 font-weight-bold">Kucing Terbang Studio </h1>
+              <p class="lead font-weight-normal">Studio with passion and never stop</p>
+            </div>
+            <div class="product-device box-shadow d-none d-md-block"></div>
+            <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+          </div>
+<!--/* About us  */-->
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light2">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <h1>
+                        <a href="" class="typewrite" data-period="2000" data-type="[  &quot;Visual Novel&quot;, &quot;Role-Playing Game&quot;, &quot;Webcomic&quot;,&quot;We make everything.&quot; ]"><span class="wrap"></span></a>
+                      </h1>
+                      
+                          <script type="text/javascript">
+                          //made by vipul mirajkar thevipulm.appspot.com
+                      var TxtType = function(el, toRotate, period) {
+                              this.toRotate = toRotate;
+                              this.el = el;
+                              this.loopNum = 0;
+                              this.period = parseInt(period, 7) || 2000;
+                              this.txt = '';
+                              this.tick();
+                              this.isDeleting = false;
+                          };
+                      
+                          TxtType.prototype.tick = function() {
+                              var i = this.loopNum % this.toRotate.length;
+                              var fullTxt = this.toRotate[i];
+                      
+                              if (this.isDeleting) {
+                              this.txt = fullTxt.substring(0, this.txt.length - 1);
+                              } else {
+                              this.txt = fullTxt.substring(0, this.txt.length + 1);
+                              }
+                      
+                              this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+                      
+                              var that = this;
+                              var delta = 200 - Math.random() * 100;
+                      
+                              if (this.isDeleting) { delta /= 2; }
+                      
+                              if (!this.isDeleting && this.txt === fullTxt) {
+                              delta = this.period;
+                              this.isDeleting = true;
+                              } else if (this.isDeleting && this.txt === '') {
+                              this.isDeleting = false;
+                              this.loopNum++;
+                              delta = 500;
+                              }
+                      
+                              setTimeout(function() {
+                              that.tick();
+                              }, delta);
+                          };
+                      
+                          window.onload = function() {
+                              var elements = document.getElementsByClassName('typewrite');
+                              for (var i=0; i<elements.length; i++) {
+                                  var toRotate = elements[i].getAttribute('data-type');
+                                  var period = elements[i].getAttribute('data-period');
+                                  if (toRotate) {
+                                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                                  }
+                              }
+                              // INJECT CSS
+                              var css = document.createElement("style");
+                              css.type = "text/css";
+                              css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+                              document.body.appendChild(css);
+                          };
+                          </script>
+        </div>
+      </div>
+            
+            </center>
+            <!--/* others  */-->
+            <section id="others">
+                <header class="section-header header-type-2 style-1">
+                  <div class="container">
+                    <h4 class="heading-hr-1">OTHER THAN GAMES</h4>
+                    <q class="header-caption">We also made lot of thing aside from game. Music, illustration, novel, each of them is made by our team. We are content creators who also striving to create products for various digital formats across platforms.</q>
+                  </div>
+                </header>
+                <div class="team-section-01">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="team-style-01 text-center section-block-p">
+                          <div class="image"><img src="assets/pict/c.png" alt="">
+                            <div class="overlay">
+                              <div class="cell-vertical-wrapper">
+                                <div class="cell-middle">
+                                  <ul class="social-01">
+                                   
+                                    <li><a href="https://www.facebook.com/liejai.ming"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://soundcloud.com/app-smith"><i class="fa fa-soundcloud"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <h5 class="name">ORIGINAL SOUNDTRACK</h5>
+                          <p class="job">BY : BreezyEcho</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="team-style-01 text-center section-block-p">
+                          <div class="image"><img src="assets/pict/blaze.jpg" alt="">
+                            <div class="overlay">
+                              <div class="cell-vertical-wrapper">
+                                <div class="cell-middle">
+                                  <ul class="social-01">
+                                  
+                                    <li><a href="https://www.facebook.com/AKBlazest/"><i class="fa fa-facebook"></i></a></li>
+                                    
+                                    <li><a href="https://www.instagram.com/akbarsjatmiko/"><i class="fa fa-instagram"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <h5 class="name">CONCEPT ART ALBUM</h5>
+                          <p class="job">BY : Blaze</p>
+                        </div>
+                      </div>
+                     <div class="col-md-4">
+                        <div class="team-style-01 text-center section-block-p">
+                          <div class="image"><img src="assets/pict/snow.jpg" alt="">
+                            <div class="overlay">
+                              <div class="cell-vertical-wrapper">
+                                <div class="cell-middle">
+                                  <ul class="social-01">
+                                    <li><a href="https://www.facebook.com/ACVerse/"><i class="fa fa-facebook"></i></a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <h5 class="name">NOVEL BOOK</h5>
+                          <p class="job">BY : Snow</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!--/* Team-->
+              <section id="team" class="pb-5">
+                <div class="container">
+                    <h5 class="section-title h1">OUR TEAM</h5>
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-4">
+                            </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="foto orang/hanna.png" alt="card image"></p>
+                                                <h4 class="card-title">Ruito Hanna</h4>
+                                                <p class="card-text">Art dan Game Designer</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Ruito Hanna</h4>
+                                                <p class="card-text">Saya ga bisa programming software bwahaha, asal sebut aja.<br>Karena aku yg bikin jadi aku yang di urutan pertama ya, hehe :3</p>
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="foto orang/daru.jpg" alt="card image"></p>
+                                                <h4 class="card-title">Daruma</h4>
+                                                <p class="card-text">Story</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Daruma</h4>
+                                                <p class="card-text">Kalau dimintain komentar dan saran soal cerita paling mantap, men.</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="foto orang/fildz.jpg" alt="card image"></p>
+                                                <h4 class="card-title">Fildzah</h4>
+                                                <p class="card-text">Art Manager</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Fildzah</h4>
+                                                <p class="card-text">Komikus, tapi sekarang lagi ga aktif karena fokus skripsi :"</p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="foto orang/hanna.png" alt="card image"></p>
+                                                <h4 class="card-title">Martinton</h4>
+                                                <p class="card-text">Character Designer</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Martinton</h4>
+                                                <p class="card-text">Kalau ga nyebelin ganteng. Ganteng karena ya laki-laki.<br>Pake gambar aku dulu aja soalnya ga ada foto bagus.</p>
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="foto orang/maul.jpg" alt="card image"></p>
+                                                <h4 class="card-title">Maulana</h4>
+                                                <p class="card-text">Marketing and Social Media</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Maulana</h4>
+                                                <p class="card-text">Orang marketing handal tapi kerjanya nyantai</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="foto orang/uha.jpg" alt="card image"></p>
+                                                <h4 class="card-title">Uha</h4>
+                                                <p class="card-text">Social Media and Customer Service</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Uha</h4>
+                                                <p class="card-text">Pegawai kesayangan yang sebenernya pingin minggat dari kantor tapi ga dibolehin sama bosnya</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="foto orang/Rofi.jpg" alt="card image"></p>
+                                                <h4 class="card-title">Roffi</h4>
+                                                <p class="card-text">Software and Level Designer</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Roffi</h4>
+                                                <p class="card-text">Saya nggak tau makhluk apa beliau ini.</p>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                            <i class="fa fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                            <i class="fa fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                            <i class="fa fa-skype"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                            <i class="fa fa-google"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <!--/* Contact  */-->
+                <section id="contact">
+                <center>
+                    <h5 class="section-title h1">contact</h5>
+                        <table width="60%" style="margin-bottom: 15px;">
+                                <tbody><tr>
+                                    <td class="transparan1" width="50%" valign=top >
+                        
+                        <p><b>Don't hesitate to contact us</b><br>
+                            Want to say hello? Want to know more about us? Drop us an email and we will get back to you as soon as it is possible!</p></center>
+                        </td>
+                        <td style="padding-left: 20px;" class="transparan2">
+                              <table>
+                                    <tbody>
+                        <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                            <form method="POST" action="https://formspree.io/kucingterbang.studio@gmail.com">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" placeholder="Your name" required>
+                                                <br><br>
+                                                <input type="text" name="Email" id="Email" placeholder="Your email" required>
+                                                <br><br>
+                                                <input type="text" name="phone" id="phone" maxlength="13" placeholder="Your phone (optional)">
+                                                <br><br>
+                                                <textarea name="comments" id="comments" placeholder="Your message" cols="50" rows="5"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-success" onclick="alert(Thankyou for your message!)">Kirim</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            </tbody> </table> </td>
+                        </tbody></table>
+                            <center>
+                                    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15842.809611977867!2d107.7746881!3d-6.9261321!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6192a1f92aa9e41!2sPadjadjaran+University!5e0!3m2!1sen!2sca!4v1532430217231" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+                    </section>
+            </body>
+</html>
